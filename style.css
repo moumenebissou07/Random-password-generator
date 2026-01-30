@@ -25,6 +25,11 @@ h1{
     text-align: center;
 }
 button{
-    background-color: blue;
+    border-radius : 5px;
+    background-color: rgb(83, 83, 226);
     color : white
+}
+button:hover{
+    box-shadow: 5px 5px 30px yellow;
+    background-color:rgb(37, 37, 223);
 }

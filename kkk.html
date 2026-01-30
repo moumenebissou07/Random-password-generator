@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WEBSITE</title>
+    <link rel="stylesheet" href="tiger.css">
+</head>
+<body>
+
+<div class="container">
+<label>enter the length of the recomended password :</label>
+<input type ="number" value = "0" id="myinput">
+<br>
+<p>Choose what does your password include ? </p>
+<br>
+<input type="checkbox" id="uppercase">
+<label for="uppercase">Uppercase characters</label>
+<br>
+<input type="checkbox" id="lowercase">
+<label for="lowercase">Lowercase characters</label>
+<br>
+<input type="checkbox" id="numbers">
+<label for="numbers">Numbers</label>
+<br>
+<input type="checkbox" id="symbols">
+<label for="symbols">Symbols</label>
+<br>
+<button onclick="GeneratePasswords()">GENERATE</button>
+<div id="result"></div>
+
+
+</div>
+
+
+<script src="kyky.js"></script>
+</body>
+</html>

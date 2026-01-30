@@ -1,0 +1,22 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+background-color : rgb(182, 214, 235);
+font-size: 1.5em;
+}
+.container{
+    max-width: 1000px;
+    margin :auto;
+    margin-top: 150px;
+    background-color : white;
+    border-radius: 5px;
+    padding : 5px;
+}
+#myinput{
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color : white
+}
